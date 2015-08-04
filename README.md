@@ -4,5 +4,16 @@ A simple command line program that allow switching the default audio interface o
 
 ## Usage
 
-    EndPointController.exe [Device index or device name]
+    WindowsDefaultAudioSwitcher.exe [Device index or device name]
     
+## Example
+
+Command:
+
+    WindowsDefaultAudioSwitcher.exe QPad
+Output:
+
+    Audio Device 1: Realtek Digital Output (Realtek High Definition Audio)
+    Audio Device 2: Realtek Digital Output(Optical) (Realtek High Definition Audio)
+    Audio Device 3: QPad (Realtek High Definition Audio) selected
+    Audio Device 4: Speakers (Realtek High Definition Audio)
